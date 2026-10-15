@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "oceanwavesmod",
+  "version": "${version}",
+  "name": "Ocean Waves Mod",
+  "description": "A Fabric mod for Minecraft Java 26.3 that adds realistic ocean waves with physics, boat interaction, and multiplayer support.",
+  "authors": ["13neli21mso"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.13neli21mso.oceanwavesmod.OceanWavesMod"
+    ]
+  },
+  "minecraft": {
+    "*": {
+      "version": "${minecraft_version}",
+      "ordering": "NONE",
+      "side": "BOTH"
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": ">=0.92.0+1.20.4",
+    "minecraft": "1.20.4"
+  }
+}
